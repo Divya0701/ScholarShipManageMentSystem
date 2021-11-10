@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.money-big.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 400px;
+    align-items: center;
+}
+.status-para{
+    margin-left: 5px;
+    font-family:serif;
+}
+.money-container{
+    margin-top: 15px;
+    display: flex;
+    border: 2px solid #80ced6;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    padding-left: 50px;
+    border-radius: 10px;
+    background-color: #d5f4e6;
+}
+.icons{
+    width: 40px;
+    height: 40px;
+}

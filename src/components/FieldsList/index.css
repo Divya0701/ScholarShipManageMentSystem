@@ -1,0 +1,7 @@
+.ullist{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    width: 60vw;
+    flex-wrap: wrap;
+}

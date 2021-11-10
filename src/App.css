@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.App{
+    display: flex;
+    justify-content:flex-start;
+}
+.navbar{
+    position:fixed;
+}
+.rightSection{
+    padding: 20px;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}

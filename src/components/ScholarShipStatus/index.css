@@ -1,0 +1,20 @@
+.scholar-status{
+    display: flex;
+    flex-direction: column;
+    justify-self: flex-start;
+    align-items: center;
+    padding: 10px;
+    background-color:#f8f9fa;
+    border: 2px solid #ddeedd;
+    border-radius: 15px;
+    width: 25vw;
+    margin-top: 20px;
+    padding: 10px;
+}
+.moneyList{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 20vw;
+}
