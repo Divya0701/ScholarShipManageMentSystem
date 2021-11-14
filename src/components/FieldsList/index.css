@@ -20,18 +20,43 @@
     height: auto;
     justify-content: center;
 }
+.name{
+margin-left: 20%;
+margin-top: 30px;
+}
+.amount1{
+    margin-top: 30px;
+margin-left: 28%;
+}
+.amount2{
+    margin-top: 30px;
+    margin-left: 32%;
+}
+.amount3{
+    margin-left: 25%;
+    margin-top: 30px;
+}
 .toContainer{
     width: 80%;
+}
+.top{
+    font-size: 32px;
+    color:#012a4a
 }
 .topperPic{
     width: 90px;
     height: 90px;
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 10px;
     margin-bottom: 5px;
 }
 .topperList{
     width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .topperProfile{
     display: flex;
@@ -46,3 +71,18 @@
 .hide{
     display:none;
 }
+.class1{
+    border-color: #7b2cbf;
+    color:#7b2cbf;
+    font-weight: bold;
+  }
+  .class2{
+  border-color: #119da4;
+  color:#119da4;
+  font-weight: bold;
+  }
+  .class3{
+  border-color: #e5383b;
+  color:#e5383b;
+  font-weight: bold;
+  }

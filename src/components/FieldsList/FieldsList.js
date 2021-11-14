@@ -83,6 +83,7 @@ class FieldsList extends Component{
           {currentCard===1? <Chart type="bar" options={this.state.options1} series={this.state.series1} width={600} height={320}/>:currentCard===2? <Chart type="bar" options={this.state.options3} series={this.state.series3} width={600} height={320}/>: <Chart type="bar" options={this.state.options2} series={this.state.series2} width={600} height={320}/>}
         </div>
         <div className={`topperList ${temp}`}>
+          <h1 className="top">Toppers List</h1>
            <ul className="toContainer">
              {topperList.map((eachItem)=><Top item={eachItem} key={eachItem.id}/>)}
            </ul>
@@ -95,10 +96,10 @@ class FieldsList extends Component{
 
 const Top=props=>{
 const {item}=props
-const {name,Amount,imgUrl}=item
-return(<li className="topperProfile">
+const {name,Amount,imgUrl,id}=item
+return(<li className={`topperProfile class${id}`}>
   <img src={imgUrl} alt="profile-pic" className="topperPic"/>
-  <p>{name}</p><p>{Amount}</p>
+  <p className="name">{name}</p><p className={`amount${id}`}>{Amount}</p>
   </li>)
 }
 export default FieldsList
