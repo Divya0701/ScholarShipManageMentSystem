@@ -212,7 +212,7 @@ class LoginForm extends Component
     </div>
    
     <div className="second">
-        <img src="https://res.cloudinary.com/dx4ela47a/image/upload/v1635669577/min-project-2/student_front_cgnotu.png" alt="login-right" className="right-image"/>
+        <img src="https://res.cloudinary.com/dx4ela47a/image/upload/v1636899134/min-project-2/University-Life-Illustration-1_zgzfgn.jpg" alt="login-right" className="right-image"/>
     </div>
     </div>)
    }
