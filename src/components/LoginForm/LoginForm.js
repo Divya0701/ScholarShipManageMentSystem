@@ -55,7 +55,7 @@ const user_list=[
         "score":500,
           "sid":2},
         {"name":"CGPA",
-        "sid":2700,
+        "score":2700,
         "sid":3}]
     },
     {
@@ -186,7 +186,7 @@ class LoginForm extends Component
     triggered=event=>{
         const {user_input} = this.state
         event.preventDefault()
-        const dummy_user_data = user_list.filter((eachItem)=>eachItem.id==user_input)
+        const dummy_user_data = user_list.filter((eachItem)=>eachItem.id===user_input)
         this.props.history.push({
             pathname: '/',
               state: dummy_user_data 

@@ -12,6 +12,7 @@
     padding: 10px;
 }
 .moneyList{
+    position:fixed-right;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

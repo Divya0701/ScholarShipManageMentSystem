@@ -1,5 +1,6 @@
 .title{
   color:#ffdce0;
+  color: #f8edeb;
   font-family:Verdana;
 }
 
@@ -7,9 +8,10 @@
     background-color: #ef233c;
     border-style:solid;
     border: 0;
+    cursor: pointer;
     border-radius: 20px;
     padding: 20px;
-    width: 270px;
+    width: 16vw;
     height: 150px;
     margin-right: 15px;
 }
@@ -18,9 +20,10 @@
     background-color: #a67fdc;
     border-style:solid;
     border: 0;
+    cursor: pointer;
     border-radius: 20px;
     padding: 20px;
-    width: 270px;
+    width: 16vw;
     height: 150px;
     margin-right: 15px;
 }
@@ -31,7 +34,8 @@
     border: 0;
     border-radius: 20px;
     padding: 20px;
-    width: 270px;
+    width: 16vw;
     height: 150px;
+    cursor: pointer;
     margin-right: 15px;
 }

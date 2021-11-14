@@ -5,3 +5,44 @@
     width: 60vw;
     flex-wrap: wrap;
 }
+.middleContainer{
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.graphContainer{
+    width: 100%;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+}
+.toContainer{
+    width: 80%;
+}
+.topperPic{
+    width: 90px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.topperList{
+    width: 100%;
+}
+.topperProfile{
+    display: flex;
+    border: 1px solid #14213d;
+    border-radius: 5px;
+    width:100%;
+    margin-bottom: 15px;
+}
+.display{
+    display: flex;
+}
+.hide{
+    display:none;
+}

@@ -1,0 +1,80 @@
+.dididi{
+    width:85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10vh;
+}
+.form{
+    padding: 30px;
+    border: 2px solid #0353a4;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5vh;
+    width: 30%;
+}
+.d{
+    text-align: left;
+    padding: 10px;
+    color:#14213d;
+}
+
+.Suc{
+ color:#386641;
+}
+.Fail{
+  color:#ae2012;
+}
+.Pen{
+    color:#fb8500
+}
+.head{
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-family: "verdana";
+    color: #003566;
+}
+.sub{
+    margin-top: 10px;
+    width: 80%;
+    padding: 7px;
+    border-radius: 5px;
+    border:1px solid #e5e5e5;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    background-color: #003566;
+}
+.table{
+    width: 80%;
+    font-family: arial, sans-serif;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+.row{
+    width: 100%;
+    border: 1px solid #788091;
+}
+.ll{
+    color: #6c757d;
+    font-family: "Arial";
+    width: 100%;
+    margin-left: 20%;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+.in{
+    width :80%;
+    border:1px solid #c7cdd3;
+    border-radius: 5px;
+    padding:7px;
+    outline:none;
+    margin-bottom: 15px;
+}
