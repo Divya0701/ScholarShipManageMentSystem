@@ -25,7 +25,7 @@ const scholarStatusList=[
     const el = item.status==="Successfull"?"Suc":item.status==="Failed"?"Fail":"Pen";
     return(<tr className="row">
               <td className="d">{item.Date}</td> 
-              <td className="d">${item.Amount}</td>
+              <td className="d">{item.Amount}Rs</td>
               <td className={`d ${el}`}>{item.status}</td>
             </tr>)
   }

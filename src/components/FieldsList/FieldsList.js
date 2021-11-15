@@ -99,7 +99,7 @@ const {item}=props
 const {name,Amount,imgUrl,id}=item
 return(<li className={`topperProfile class${id}`}>
   <img src={imgUrl} alt="profile-pic" className="topperPic"/>
-  <p className="name">{name}</p><p className={`amount${id}`}>{Amount}</p>
+  <p className="name">{name}</p><p className={`amount${id}`}>{Amount}Rs</p>
   </li>)
 }
 export default FieldsList

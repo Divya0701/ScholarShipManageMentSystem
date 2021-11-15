@@ -1,4 +1,5 @@
 import { Component } from "react"
+import Cookies from 'js-cookie'
 import "./index.css"
 
 const user_list=[
@@ -187,14 +188,25 @@ class LoginForm extends Component
         const {user_input} = this.state
         event.preventDefault()
         const dummy_user_data = user_list.filter((eachItem)=>eachItem.id===user_input)
-        this.props.history.push({
-            pathname: '/',
-              state: dummy_user_data 
-          })
+        if(dummy_user_data.length!==0){
+            this.props.history.push({
+                pathname: '/',
+                  state: dummy_user_data 
+              })
+              Cookies.set('jwt_token',"Got Response", {
+                expires: 30,
+                path: '/',
+              })
+        }
+        else{
+          alert("Invalid ID")
+        }
+        
     }
 
    render(){
     const {user_input} = this.state
+  
     return(<div className="login-background">
     <div className="firstContainer">
     <img src="https://res.cloudinary.com/dx4ela47a/image/upload/v1635668452/min-project-2/rguktlogo_tela0d.jpg" 

@@ -1,4 +1,5 @@
-import {MdLogin} from "react-icons/md";
+import {MdLogin} from "react-icons/md"
+import Cookies from "js-cookie"
 import {MdSpaceDashboard} from "react-icons/md"
 import {MdMonetizationOn} from "react-icons/md"
 import "./index.css"
@@ -8,6 +9,7 @@ const MainNavbar = props => {
   const {data_name,getProp,getDashBoard, getWithdraw} = props
 
   const goback=()=>{
+    Cookies.remove('jwt_token');
    getProp()
   }
   const goDash=()=>{

@@ -12,7 +12,7 @@ class ScholarShipStatus extends Component{
         <div className="moneyList">
             <div  className="scholar-status">
             <h1>Amount Left</h1>
-            <h2>Total ${total}</h2>
+            <h2>Total {total}Rs</h2>
             </div>
             <div>
                 {amoutList.map((eachItem)=><AmoutItem item={eachItem} key={eachItem.ID}/>)}

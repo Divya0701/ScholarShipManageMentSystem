@@ -11,7 +11,7 @@ const AmoutItem=props=>{
  return(<div className="money-big-container">
     <div className="money-container">
         <Element/>
-        <p className="status-para">{name} : {score}</p>
+        <p className="status-para">{name} : {score}Rs</p>
     </div>
     
  </div>)

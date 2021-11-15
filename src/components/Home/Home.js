@@ -1,10 +1,12 @@
 import MainNavbar  from "../MainNavbar/MainNavbar"
 import Withdraw from "../Withdraw"
 import Chatbox from "../Chatbox"
+import Cookies from "js-cookie"
 import ScholarShipStatus from "../ScholarShipStatus/ScholarShipStatus"
 import FieldsList from "../FieldsList/FieldsList"
 import "./index.css"
 import React from "react"
+import { Redirect } from "react-router"
 class Home extends React.Component{
     state={page:"DashBoard"}
      getProp=()=>{
@@ -18,8 +20,12 @@ class Home extends React.Component{
     getWithdraw=()=>{
         this.setState({page:"Withdraw"})
     }
-
+       
     render(){
+    const jwt_token = Cookies.get('jwt_token')
+    if(jwt_token===undefined){
+        return <Redirect to="/login"/>
+    }
     const data_object = this.props.location.state
     const {page}=this.state
     return(
